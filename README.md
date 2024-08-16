@@ -1,34 +1,41 @@
-This is Next js created app Styled with Bootsttrap
-### This is an Movie review project inspired by IMDb ratings site.
+# HEALTHFLIX
+Healthflix é uma aplicação web desenvolvida com Next.js que permite a busca e visualização de informações sobre filmes utilizando a API pública do OMDb (Open Movie Database). A aplicação permite aos usuários buscar filmes, visualizar detalhes e salvar uma lista de favoritos.
 
-### I tried to clone it using OMDb api for movies data
+## Instalação
+Antes de começar, certifique-se de ter o Node.js instalado.
 
-### Added features :
->Realtime Search
+1. Clone o repositório
+```bash
+git clone https://github.com/viniciiooss/Healthflix.git
+```
+2. Instale as dependências:
+```bash
+npm install
+```
+3. Configure as variáveis de ambiente no arquivo .env. Adicione sua chave da API OMDb:
+```bash
+API_KEY=your_omdb_api_key_here
+```
 
->Responsive
+## Uso
+Para rodar a aplicação em ambiente de desenvolvimento, use o comando:
+```bash
+npm run dev
+```
 
->Api
+## ✅ Demonstração da aplicação
+<img width="1413" alt="Captura de Tela 2024-08-16 às 00 18 05" src="https://github.com/user-attachments/assets/54336b31-08d3-436e-9f7b-296ad562616d">
 
->LocalStorage
+<img width="1413" alt="Captura de Tela 2024-08-16 às 00 18 28" src="https://github.com/user-attachments/assets/6a0cc98f-185c-4a26-aeec-16d21b1bbc73">
 
->Pagination 
+<img width="1413" alt="Captura de Tela 2024-08-16 às 00 20 16" src="https://github.com/user-attachments/assets/ca9def0b-5677-4489-8fcb-f0858931a034">
 
-# Concepts Used :
->React Hooks
+<img width="1413" alt="Captura de Tela 2024-08-16 às 00 22 38" src="https://github.com/user-attachments/assets/aceeeb3b-e7f6-4356-bb0e-2cd923829a7e">
 
->Context Hook
-
->UseEffectHook
-
->UseStateHook
-
->useRefHook //for auto Horizontal Scroll
-
->next js router
-
-#Vercel and Netlify like platforms to deploy it.
-
->vercel App : https://fluxmovies.vercel.app
-
->netlify App : https://fluxmovies.netlify.app
+## ⚒️  Tecnologias:
+- [Next.js](https://nextjs.org/)
+- [OMDb API](https://www.omdbapi.com/apikey.aspx)
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [Javacript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
